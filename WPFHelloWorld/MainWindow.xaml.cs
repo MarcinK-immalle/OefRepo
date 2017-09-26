@@ -25,9 +25,9 @@ namespace WPFHelloWorld
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void MijnKnop_Click(object sender, RoutedEventArgs e)
         {
-            label.Content = "De wereld is een ruimteship";
+            MijnStatusLabel.Background = Brushes.Red;
         }
     }
 }
