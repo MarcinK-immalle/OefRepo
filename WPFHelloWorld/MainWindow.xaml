@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label x:Name="MijnStatusLabel" Content="" HorizontalAlignment="Left" Height="40" Margin="51,205,0,0" VerticalAlignment="Top" Width="178" Background="#FFC5C500"/>
-        <Button x:Name="MijnKnop" Content="MijnKnop" HorizontalAlignment="Left" Height="82" Margin="71,46,0,0" VerticalAlignment="Top" Width="158" Click="MijnKnop_Click"/>
+        <Button x:Name="mijnKnop" Content="Knop" HorizontalAlignment="Left" Height="69" Margin="60,72,0,0" VerticalAlignment="Top" Width="137" Click="mijnKnop_Click_1"/>
 
     </Grid>
 </Window>

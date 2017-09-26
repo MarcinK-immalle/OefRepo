@@ -25,9 +25,12 @@ namespace WPFHelloWorld
             InitializeComponent();
         }
 
-        private void MijnKnop_Click(object sender, RoutedEventArgs e)
+        private int aantalkliks = 0;
+
+        private void mijnKnop_Click_1(object sender, RoutedEventArgs e)
         {
-            MijnStatusLabel.Background = Brushes.Red;
+            mijnKnop.Content = "Knop" + "[" + (aantalkliks + 1) + "]";
+            aantalkliks = aantalkliks + 1;
         }
     }
 }
