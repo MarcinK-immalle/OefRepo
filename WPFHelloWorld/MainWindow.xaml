@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="label" Content="Hallo Wereld! Ik ben Marcin " HorizontalAlignment="Left" Height="38" Margin="177,52,0,0" VerticalAlignment="Top" Width="268"/>
+
     </Grid>
 </Window>
