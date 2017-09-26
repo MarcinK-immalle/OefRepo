@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label x:Name="label" Content="Hallo Wereld! Ik ben Marcin " HorizontalAlignment="Left" Height="38" Margin="177,52,0,0" VerticalAlignment="Top" Width="268"/>
+        <Button x:Name="button" Content="Klik hier!" HorizontalAlignment="Left" Height="51" Margin="35,61,0,0" VerticalAlignment="Top" Width="134" Background="#FF00E20A" Foreground="White" Click="button_Click"/>
+        <Label x:Name="label" Content="Klik hier!" HorizontalAlignment="Left" Height="51" Margin="193,61,0,0" VerticalAlignment="Top" Width="291"/>
 
     </Grid>
 </Window>
